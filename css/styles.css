@@ -86,6 +86,8 @@ body.dark-theme {
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
 
+
+/*========== Button Dark/Light
 body.dark-theme {
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
@@ -99,7 +101,7 @@ body.dark-theme {
     --container-color: #fff;
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-}
+} ==========*/
 
 
 /*========== Button Dark/Light ==========*/
@@ -421,7 +423,10 @@ img {
 .button--white:hover {
     background-color: #fff;
 }
-
+.now{
+    background-color: #fff;
+    color: var(--first-color-second);
+}
 .button--flex {
     display: inline-flex;
     align-items: center;
@@ -446,10 +451,13 @@ img {
 /*==================== ABOUT ====================*/
 
 .about_img {
-    width: 200px;
+    width: 400px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
+}
+.about_data{
+    margin-top: 100px;
 }
 
 .about_description {
@@ -570,27 +578,27 @@ img {
 }
 
 .skills_react {
-    width: 60%;
+    width: 0%;
 }
 
 .skills_php {
-    width: 60%;
+    width: 0%;
 }
 
 .skills_node {
-    width: 60%;
+    width: 0%;
 }
 
 .skills_express {
-    width: 60%;
+    width: 0%;
 }
 
 .skills_python {
-    width: 50%;
+    width: 20%;
 }
 
 .skills_figma {
-    width: 60%;
+    width: 70%;
 }
 
 .skills_photoshop {
@@ -598,9 +606,11 @@ img {
 }
 
 .skills_affinity {
-    width: 60%;
+    width: 85%;
 }
-
+.skills_coreldraw{
+    width: 90%;
+}
 .skills_illustrator {
     width: 60%;
 }
@@ -1031,6 +1041,17 @@ textarea {
 
 .footer_social {
     color: var(--first-color-lighter);
+}
+
+.footer_socials {
+    gap: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer_socials img {
+    gap: 1rem;
+    width: 30px;
+    height: 30px;
 }
 
 .footer_copy {
